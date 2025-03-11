@@ -55,14 +55,18 @@ nav button{
     position: relative;
     font-family:Martel Sans ,sans-serif;
     gap: 20px;
+    padding: 30px;
+    text-align: center;
 
     
 }
 .box1> :first-child{
     font-weight: 900;
     font-size: 48px;
+    text-align: center;
 }
 .box1 :nth-child(2){
     font-weight: 700;
     font-size: 20px;
+    text-align: center;
 }
