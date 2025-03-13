@@ -9,9 +9,18 @@
 body {
     background-color: black;
 }
+.background{
+    background-image: url(/Netflix-Ul/images/NewBackground.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 90px;
+    border: solid;
+}
 
 .main {
-    background-image: url("/Netflix-UL/images/NetflixBackground.jpg");
+ 
     background-position: center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
@@ -20,7 +29,7 @@ body {
 
 }
 
-.main .box {
+.box {
     height: 70vh;
     width: 100%;
     opacity: 0.44;
@@ -109,6 +118,7 @@ nav button {
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23,0.2);
+    border: rgba(23, 23, 23,0.5);
     color: white;
 
 }
